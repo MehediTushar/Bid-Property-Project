@@ -8,7 +8,7 @@ include 'functions/db.php';
 $id = $_GET['id'];
 
 $msg="";
-$sql = "DELETE FROM users WHERE id = :id";
+$sql = "DELETE FROM properties WHERE id = :id";
 $result = $conn->prepare($sql);
 
 // Bind the parameters
@@ -16,10 +16,10 @@ $result->bindParam(':id', $id, PDO::PARAM_INT);
 
 // Execute the query
 if ($result->execute()) {
-    $msg = "<p class='alert alert-success'>User Deleted</p>";
+    $msg = "<p class='alert alert-success'>Property Deleted</p>";
 } else {
-    $msg = "<p class='alert alert-warning'>User not Deleted</p>";
+    $msg = "<p class='alert alert-warning'>Property not Deleted</p>";
 }
-header("Location: manage_users.php?msg=" . urlencode($msg));
+header("Location: view_property.php?msg=" . urlencode($msg));
 exit();
 ?>

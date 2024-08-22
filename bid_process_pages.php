@@ -70,7 +70,9 @@ $won_properties = $stmt->fetchAll(PDO::FETCH_ASSOC);
                                                     <td><?php echo $row['title']; ?></td>
                                                     <td><?php echo $row['amount']; ?></td>
                                                     <td><?php echo $row['bid_time']; ?></td>
-                                                    <td><a href="biddelete.php?id=<?php echo $row['id'];?>"><button class="btn btn-danger">Delete</button></a></td>
+                                                    <td>
+                                                    <a href="bidedit.php?id=<?php echo $row['id']; ?>"><button class="btn btn-info">Edit</button></a>    
+                                                    <a href="biddelete.php?id=<?php echo $row['id'];?>"><button class="btn btn-danger">Delete</button></a></td>
                                                 </tr>
                                                <?php
 												} 

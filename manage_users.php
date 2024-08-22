@@ -70,7 +70,14 @@ $base_url = '/property_bid_project/';?>
                                                     <td><?php echo $row['phone']; ?></td>
                                                     <td><?php echo $row['role_name']; ?></td>
                                                     <td><?php echo $row['address']; ?></td>
-                                                    <td><a href="userdelete.php?id=<?php echo $row['id']; ?>"><button class="btn btn-danger">Delete</button></a></td>
+                                                    <td>
+                                                <?php if ($row['role_id'] != 1): ?>
+                                                    <a href="userdelete.php?id=<?php echo $row['id']; ?>">
+                                                        <button class="btn btn-danger">Delete</button>
+                                                    </a>
+                                                <?php endif; ?>
+                                            </td>
+                                                    <!-- <td><a href="userdelete.php?id=<?php echo $row['id']; ?>"><button class="btn btn-danger">Delete</button></a></td> -->
                                                 </tr>
                                                 <?php
 												$cnt=$cnt+1;

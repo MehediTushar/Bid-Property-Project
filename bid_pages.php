@@ -27,7 +27,7 @@ if (isset($_GET['id']) && is_numeric($_GET['id'])) {
                         <h2 class="text-center mb-4" ><strong> Enter Your Login Information</strong></h2>
                         <hr/>
                         <?php if (isset($_SESSION['user_id'])): ?>
-    <form action="functions/place_bid.php" method="post">
+    <form action="functions/bid_update.php" method="post">
         <input type="hidden" name="property_id" value="<?php echo $property['id']; ?>">
 
         <div class="row mb-3">

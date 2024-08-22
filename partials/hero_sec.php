@@ -32,7 +32,7 @@
                                     </div>
                                     <div class="col-md-8 col-lg-6">
                                         <div class="form-group">
-                                            <input type="text" class="form-control" name="location" placeholder="Enter City" required>
+                                            <input type="text" class="form-control" name="location" placeholder="Enter Location" required>
                                         </div>
                                     </div>
                                     <div class="col-md-4 col-lg-2">

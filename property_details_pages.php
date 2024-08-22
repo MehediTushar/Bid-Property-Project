@@ -44,7 +44,7 @@ if (isset($_GET['id']))
                 </tr>
                 <tr>
                     <th>Bidder Name</th>
-                    <td><?= htmlspecialchars($highestBid['name']) ?></td>
+                    <td><?= htmlspecialchars($highestBid['user_name']) ?></td>
                 </tr>
                 <tr>
                     <th>Bidder Email</th>
