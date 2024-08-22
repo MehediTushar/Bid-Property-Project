@@ -63,22 +63,24 @@ $base_url = '/property_bid_project/';
 
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
     <!-- <script src="assets/js/custom.js"></script>  -->
-    <script src="js/greensock.js"></script> 
-<script src="js/layerslider.transitions.js"></script> 
-<script src="js/layerslider.kreaturamedia.jquery.js"></script> 
+    <script src="assets/js/greensock.js"></script> 
+<script src="assets/js/layerslider.transitions.js"></script> 
+<script src="assets/js/layerslider.kreaturamedia.jquery.js"></script> 
 <!--jQuery Layer Slider --> 
-<script src="js/popper.min.js"></script> 
-<script src="js/bootstrap.min.js"></script> 
-<script src="js/owl.carousel.min.js"></script> 
-<script src="js/tmpl.js"></script> 
-<script src="js/jquery.dependClass-0.1.js"></script> 
-<script src="js/draggable-0.1.js"></script> 
-<script src="js/jquery.slider.js"></script> 
-<script src="js/wow.js"></script> 
-<script src="js/YouTubePopUp.jquery.js"></script> 
-<script src="js/validate.js"></script> 
-<script src="js/jquery.cookie.js"></script> 
+<!-- <script src="assets/js/popper.min.js"></script>  -->
+<script src="assets/js/bootstrap.min.js"></script> 
+<script src="assets/js/owl.carousel.min.js"></script> 
+<script src="assets/js/tmpl.js"></script> 
+<script src="assets/js/jquery.dependClass-0.1.js"></script> 
+<script src="assets/js/draggable-0.1.js"></script> 
+<script src="assets/js/jquery.slider.js"></script> 
+<script src="assets/js/wow.js"></script> 
+<script src="assets/js/YouTubePopUp.jquery.js"></script> 
+<script src="assets/js/validate.js"></script> 
+<script src="assets/js/jquery.cookie.js"></script> 
 <script src="assets/js/custom.js"></script>
 </body>
 </html>
