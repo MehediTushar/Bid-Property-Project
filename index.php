@@ -213,6 +213,7 @@
                 </div>
             </div>
         </section>
+        
         <div class="full-row">
     <div class="container">
         <div class="row">
@@ -220,7 +221,7 @@
                 <div class="content-sidebar p-4">
                     <div class="mb-3 col-lg-12">
                         <h4 class="double-down-line-left text-secondary position-relative pb-4 mb-4">Testimonial</h4>
-                        <div class="recent-review owl-carousel owl-dots-gray owl-dots-hover-success">
+                        <div class="recent-review owl-dots-hover-success">
                             <?php
                             $sql = "SELECT testimonials.*, users.user_name, role.role_name 
                                     FROM testimonials

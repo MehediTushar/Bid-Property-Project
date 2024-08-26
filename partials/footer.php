@@ -70,7 +70,7 @@ $base_url = '/property_bid_project/';
 <script src="assets/js/layerslider.transitions.js"></script> 
 <script src="assets/js/layerslider.kreaturamedia.jquery.js"></script> 
 <!--jQuery Layer Slider --> 
-<!-- <script src="assets/js/popper.min.js"></script>  -->
+<script src="assets/js/popper.min.js"></script> 
 <script src="assets/js/bootstrap.min.js"></script> 
 <script src="assets/js/owl.carousel.min.js"></script> 
 <script src="assets/js/tmpl.js"></script> 
